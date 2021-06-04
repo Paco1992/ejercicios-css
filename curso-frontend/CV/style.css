@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+  }
+
+/* Estilo para el body */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .side {
+    flex: 30%;
+    background-color: #2abce0;
+    padding: 20px;
+  }
+
+  .main {
+    flex: 70%;
+   
+    padding: 20px;
+  }
+
+  .titular{
+      background-color: hsl(120, 21%, 82%);
+  }

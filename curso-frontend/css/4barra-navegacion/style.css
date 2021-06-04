@@ -1,0 +1,41 @@
+.nav-enlace{
+    background: cyan;
+    color: black;
+    padding: 10px 30px;
+    text-decoration: none; 
+}
+
+.nav-enlace:hover{
+    background: greenyellow;
+    border-radius: 5px;
+    border: 2px solid green;
+
+}
+
+nav{
+    background: darkslategray;
+    padding: 10px; 
+    display: flex; 
+    justify-content: space-around;
+}
+
+.nav-boton{
+    background: grey;
+color: white;
+padding: 10px;
+border: 2px solid black; 
+display: none; 
+}
+
+@media(max-width:600px){
+    nav{
+        background: darkslategray; 
+    flex-direction: column; 
+    }
+    .nav-enlace{
+        margin: 10px 0;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+}
